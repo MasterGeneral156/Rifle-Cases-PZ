@@ -1,0 +1,19 @@
+module tmgRifleCases
+{
+	imports
+	{
+		Base,
+	}
+	item Item_RifleCase
+	{
+		Weight 		= 1.0,
+		WeightReduction 		= 10,
+		Type 		= Container,
+		Capacity 		= 15,
+		DisplayName 		= Rifle Case,
+		Icon 		= PistolCase,
+		MetalValue 		= 30,
+		ReplaceInPrimaryHand 		= Bag_PistolCase_RHand holdingbagright,
+		ReplaceInSecondHand 		= Bag_PistolCase_LHand holdingbagleft,
+	}
+}
